@@ -27,16 +27,16 @@ make_another_array(n)
 # O(n^2) - Doubled the input. Takes twice the amount of space
 
 
-def make_matrix(n):
-    matrix = []
+# def make_matrix(n):
+#     matrix = []
 
-    for item in n:
-        row = []
+#     for i in n:
+#         row = []
 
-        for i in n:
-            row.append(i * 2)
+#         for i in n:
+#             row.append(i * 2)
 
-        matrix.append(row)
+#         matrix.append(row)
 
 
 def factorial(n):
